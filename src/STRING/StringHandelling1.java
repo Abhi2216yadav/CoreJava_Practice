@@ -10,7 +10,7 @@ public class StringHandelling1 {
 	
 		
 	
-		System.out.println(s1 == s2); //memory are not same one in heap area and second one in String 
+		System.out.println(s1 == s2); //memory are not same one in heap area and second one in String contant pool
 		System.out.println(s1.equals(s2));//checking content 
 	}
 

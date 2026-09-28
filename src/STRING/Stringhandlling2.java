@@ -4,7 +4,7 @@ public class Stringhandlling2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String s1 = new String("Arup"); //creating in heap and String Constant (SCP)
+		String s1 = new String("Arup"); //creating in heap and String Constant pool(SCP)
 		String s2 = new String("Arup");//creating in heap and SCP again
 		String s3 = "Arup";//only in scp that all ready exist
 		String s4 = "Arup";
